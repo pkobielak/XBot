@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>xbot_cc</Name>
+    <ProjectGuid>{76524bfb-73ab-4c4d-b81e-dd5aecf345bf}</ProjectGuid>
+    <RootNamespace>xbot_cc</RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="css\plugins\metisMenu\metisMenu.css" />
+    <Compile Include="css\plugins\metisMenu\metisMenu.min.css" />
+    <Compile Include="css\plugins\dataTables.bootstrap.css" />
+    <Compile Include="css\plugins\morris.css" />
+    <Compile Include="css\plugins\social-buttons.css" />
+    <Compile Include="css\plugins\timeline.css" />
+    <Compile Include="css\bootstrap.css" />
+    <Compile Include="css\bootstrap.min.css" />
+    <Compile Include="css\sb-admin-2.css" />
+    <Compile Include="done.php" />
+    <Compile Include="font-awesome\css\font-awesome.css" />
+    <Compile Include="font-awesome\css\font-awesome.min.css" />
+    <Compile Include="font-awesome\fonts\fontawesome-webfont.eot" />
+    <Compile Include="font-awesome\fonts\fontawesome-webfont.svg" />
+    <Compile Include="font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Compile Include="font-awesome\fonts\fontawesome-webfont.woff" />
+    <Compile Include="font-awesome\fonts\FontAwesome.otf" />
+    <Compile Include="font-awesome\less\bordered-pulled.less" />
+    <Compile Include="font-awesome\less\core.less" />
+    <Compile Include="font-awesome\less\fixed-width.less" />
+    <Compile Include="font-awesome\less\font-awesome.less" />
+    <Compile Include="font-awesome\less\icons.less" />
+    <Compile Include="font-awesome\less\larger.less" />
+    <Compile Include="font-awesome\less\list.less" />
+    <Compile Include="font-awesome\less\mixins.less" />
+    <Compile Include="font-awesome\less\path.less" />
+    <Compile Include="font-awesome\less\rotated-flipped.less" />
+    <Compile Include="font-awesome\less\spinning.less" />
+    <Compile Include="font-awesome\less\stacked.less" />
+    <Compile Include="font-awesome\less\variables.less" />
+    <Compile Include="font-awesome\scss\font-awesome.scss" />
+    <Compile Include="font-awesome\scss\_bordered-pulled.scss" />
+    <Compile Include="font-awesome\scss\_core.scss" />
+    <Compile Include="font-awesome\scss\_fixed-width.scss" />
+    <Compile Include="font-awesome\scss\_icons.scss" />
+    <Compile Include="font-awesome\scss\_larger.scss" />
+    <Compile Include="font-awesome\scss\_list.scss" />
+    <Compile Include="font-awesome\scss\_mixins.scss" />
+    <Compile Include="font-awesome\scss\_path.scss" />
+    <Compile Include="font-awesome\scss\_rotated-flipped.scss" />
+    <Compile Include="font-awesome\scss\_spinning.scss" />
+    <Compile Include="font-awesome\scss\_stacked.scss" />
+    <Compile Include="font-awesome\scss\_variables.scss" />
+    <Compile Include="fonts\glyphicons-halflings-regular.eot" />
+    <Compile Include="fonts\glyphicons-halflings-regular.svg" />
+    <Compile Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Compile Include="fonts\glyphicons-halflings-regular.woff" />
+    <Compile Include="js\plugins\dataTables\dataTables.bootstrap.js" />
+    <Compile Include="js\plugins\dataTables\jquery.dataTables.js" />
+    <Compile Include="js\plugins\flot\excanvas.min.js" />
+    <Compile Include="js\plugins\flot\flot-data.js" />
+    <Compile Include="js\plugins\flot\jquery.flot.js" />
+    <Compile Include="js\plugins\flot\jquery.flot.pie.js" />
+    <Compile Include="js\plugins\flot\jquery.flot.resize.js" />
+    <Compile Include="js\plugins\flot\jquery.flot.tooltip.min.js" />
+    <Compile Include="js\plugins\metisMenu\metisMenu.js" />
+    <Compile Include="js\plugins\metisMenu\metisMenu.min.js" />
+    <Compile Include="js\plugins\morris\morris-data.js" />
+    <Compile Include="js\plugins\morris\morris.js" />
+    <Compile Include="js\plugins\morris\morris.min.js" />
+    <Compile Include="js\plugins\morris\raphael.min.js" />
+    <Compile Include="js\bootstrap.js" />
+    <Compile Include="js\bootstrap.min.js" />
+    <Compile Include="js\jquery.js" />
+    <Compile Include="js\sb-admin-2.js" />
+    <Compile Include="less\mixins.less" />
+    <Compile Include="less\sb-admin-2.less" />
+    <Compile Include="less\variables.less" />
+    <Compile Include="blank.html" />
+    <Compile Include="bots_count.php" />
+    <Compile Include="buttons.html" />
+    <Compile Include="check.php" />
+    <Compile Include="conn.php" />
+    <Compile Include="flot.html" />
+    <Compile Include="forms.html" />
+    <Compile Include="grid.html" />
+    <Compile Include="icons.html" />
+    <Compile Include="index.html" />
+    <Compile Include="login.html" />
+    <Compile Include="morris.html" />
+    <Compile Include="notifications.html" />
+    <Compile Include="panels-wells.html" />
+    <Compile Include="README.md" />
+    <Compile Include="add_command.php" />
+    <Compile Include="site.php" />
+    <Compile Include="tables.php" />
+    <Compile Include="typography.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\plugins\metisMenu" />
+    <Folder Include="css\plugins" />
+    <Folder Include="css" />
+    <Folder Include="font-awesome\css" />
+    <Folder Include="font-awesome\fonts" />
+    <Folder Include="font-awesome\less" />
+    <Folder Include="font-awesome\scss" />
+    <Folder Include="font-awesome" />
+    <Folder Include="fonts" />
+    <Folder Include="js\plugins\dataTables" />
+    <Folder Include="js\plugins\flot" />
+    <Folder Include="js\plugins\metisMenu" />
+    <Folder Include="js\plugins\morris" />
+    <Folder Include="js\plugins" />
+    <Folder Include="js" />
+    <Folder Include="less" />
+  </ItemGroup>
+</Project>
